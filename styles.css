@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #333;
+    --secondary-color: rgb(165, 128, 42);
+}
+
+html,body{
+    font-size: 10px;
+    font-family: "open sans",sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.header-flex{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+font-size: 3rem;
+padding: 10px 230px;
+font-weight: 600;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-right: 290px;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: var(--secondary-color);
+}
+
+/*hero*/
+.hero{
+    background-image: url(image_resources/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #fff;
+  
+}
+.hero-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+.hero-h1{
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+span{
+    color: var(--secondary-color);
+}
+.hero-para{
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+}
+
+/*history*/
+
+.history-flex{
+    display: flex;
+}
+.history-img{
+    width: 1100px;
+    height: 400px;
+}
+.history-content{
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+
+.history-h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.history-para{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    line-height: 1.8;
+}
+
+/*activities*/
+
+.activities-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 30px;
+}
+
+div{
+    font-size: 1rem;
+    
+}
+
+i{
+    padding: 10px 10px;
+}
+strong{
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+.activities-para{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.footer-para{
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 1.5rem;
+}
+
+
+.about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    padding-right: 30px;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-right: 60px;
+}
+
+.about-img{
+    width: 400px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+.guest{
+    background-image: url(image_resources/test-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.guest-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 80px;
+}
+.guest-h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    padding: 50px 0;
+}
+#pic-1{
+background-color: var(--secondary-color);
+display: flex;
+justify-content:center ;
+align-items: center;
+
+
+}
+.person-img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+.guest-para{
+    padding: 20px 20px;
+    font-size: 1.3rem;
+}
+
+/*form*/
+
+.form{
+   
+}
+
+form{
+    padding-left: 230px;
+}
+h2{
+font-size: 4rem;
+padding-bottom: 20px;
+}
+P{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+label{
+    margin: 40px 0;
+    font-size: 1.5rem;
+    
+}
+input{
+    margin: 10px 0;
+    width: 75%;
+   
+    padding: 10px 0;
+}
+textarea{
+    margin: 10px 0;
+    padding-bottom: 180px;
+    width: 75%;
+   
+}
+
+button{
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    margin-bottom: 90px;
+}
+button:hover{
+    background-color: var(--secondary-color);
+}
+
